@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ================================common class================================*/
+.container{
+    max-width: 1398px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+figure{
+    display: inline-block;
+}
+/* ==========================start navbar==================================== */
+.navbar{
+    position: relative;
+    padding: 18px 0px;
+}
+.nav-logo{
+    position: absolute;
+    max-width: 224px;
+    width: 100%;
+    top: 2%;
+}
+.navbar-nav .nav-item:nth-child(3){
+    margin-right: 10.5px;
+}
+.nav-link{
+    margin: 0px 22.5px;
+    padding: 0 !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-btn a{
+    padding: 16px 14px;
+    background-color: #EAE4EA;
+    border-radius: 50px;
+    color: #000;
+}
+.cross-btn a{
+    display: none;
+}
+/*==============================start banner================================*/
+.banner{
+    background: url("../img/banner.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.banner-content{
+    max-width: 984px;
+    width: 100%;
+    padding: 58px 0px 37px 0px;
+}
+.banner-img{
+    max-width: 1110px;
+    width: 100%;
+}
+.banner-content a{
+    color: #fff;
+    background-color: #AA6AAA;
+    padding: 20px 24px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================responsive======================================================= */
+@media screen and (max-width: 992px) {
+/*===================================start navbar==============================================*/
+/* .navbar .container{
+    position: relative;
+} */
+.contact-btn{
+    margin-top: 10px;
+}
+ .nav-all{
+    flex-direction: column;
+}
+.navbar-nav{
+    margin: 15px 0px;
+}
+.nav-item .nav-link{
+    margin-bottom: 20px ;
+    text-align: center;
+}
+.cross-btn a{
+    padding: 25px;
+    font-size: 25px;
+    display: block;
+}
+}
+
+
+   
