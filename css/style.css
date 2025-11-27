@@ -30,6 +30,7 @@ figure{
 .navbar{
     position: relative;
     padding: 18px 0px;
+    /* background-color: #000; */
 }
 .nav-logo{
     position: absolute;
@@ -46,14 +47,18 @@ figure{
     font-size: 16px;
     font-weight: 400;
 }
+.nav-link:hover{
+    rotate: -10deg;
+}
 .contact-btn a{
     padding: 16px 14px;
     background-color: #EAE4EA;
     border-radius: 50px;
     color: #000;
 }
-.cross-btn a{
-    display: none;
+.contact-btn a:hover{
+    background-color: #f2d1f2;
+    rotate: -10deg;
 }
 /*==============================start banner================================*/
 .banner{
@@ -61,6 +66,7 @@ figure{
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    height: 100%;
 }
 .banner-content{
     max-width: 984px;
@@ -71,11 +77,20 @@ figure{
     max-width: 1110px;
     width: 100%;
 }
+.banner-content p{
+    width: 80%;
+}
 .banner-content a{
     color: #fff;
     background-color: #AA6AAA;
     padding: 20px 24px;
     border-radius: 50px;
+}
+.banner-content a:hover{
+    background-color: #f2d1f2;
+    rotate: -10deg;
+    color: #AA6AAA;
+    outline: 2px solid #AA6AAA;
 }
 
 
@@ -127,23 +142,18 @@ figure{
 /* .navbar .container{
     position: relative;
 } */
-.contact-btn{
-    margin-top: 10px;
-}
- .nav-all{
-    flex-direction: column;
-}
 .navbar-nav{
     margin: 15px 0px;
 }
 .nav-item .nav-link{
     margin-bottom: 20px ;
-    text-align: center;
+    /* text-align: center; */
 }
-.cross-btn a{
-    padding: 25px;
-    font-size: 25px;
-    display: block;
+.contact-btn {
+    margin: 0 0 0 15px;
+}
+.btn-close{
+    padding: 15px;
 }
 }
 
